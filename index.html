@@ -10,11 +10,24 @@
 </head>
 <body>
     <nav class="navbar bg-body-tertiary">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="#"><i class="fab fa-instagram"></i>
-            Instagram
+      <div class="container-fluid m-1 p-1">
+        <a class="navbar-brand" href="#"><i class="fab fa-instagram"></i>
+          Instagram
+        </a>
+        <button type="button" class="btn btn-success" data-bs-toggle="modal" data-bs-target="#my-modal">Create a new post</button>
+        <div class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle bg-secondary p-2" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            <i class="fas fa-cog"></i>
           </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Profile</a></li>
+              <li><a class="dropdown-item" href="#">Accesibility</a></li>
+              <li><a class="dropdown-item" href="#">Privacy and Data</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="#">Log out</a></li>
+            </ul>
         </div>
+      </div>
     </nav>
     <div class="container-fluid">
         
